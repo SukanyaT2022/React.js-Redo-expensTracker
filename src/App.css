@@ -1,0 +1,17 @@
+.mainBoxAppJS{
+border: 2px solid black;
+width: 50%;
+margin: auto;
+
+/* padding: 0px 25px; */
+}
+.mainBoxAppJS button{
+background-color: aqua;
+}
+.HighLowButton{
+    margin-right: 20px;
+
+    
+
+}
+

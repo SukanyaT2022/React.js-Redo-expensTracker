@@ -1,0 +1,16 @@
+.mainBox-input{
+    display: flex;
+    justify-content: center;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+
+}
+.h2Expense {
+    text-align:  center;
+}
+.mainBox-input input{
+    width: 50%;
+    margin: 10px 0px;
+  
+}
