@@ -7,6 +7,7 @@ const App = () => {
   // step1 use array in Usestate--name arrays stroeData
   //step 2 display data storeDataArray we use javascript method to map value to display
 const [storeData, setStoreData] = useState([
+  
   {
     id: 1,
     item:"grocery",
@@ -25,14 +26,10 @@ const [storeData, setStoreData] = useState([
 
 ])
 
-
 return(
   <>
   <div className='mainBoxAppJS'>
-    <Input />
-   
-    <button className='HighLowButton'>Low-High</button>
-    <button className='HighLowButton'>High-Low</button>
+    <Input keysetStoreData={setStoreData}/>
     <DisplayItem keyStoreData ={storeData}/>
   </div>
   </>

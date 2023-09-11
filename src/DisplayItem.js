@@ -10,7 +10,11 @@ function DisplayItem({keyStoreData}) {
 <div className='title'>
 <h2>Item</h2>
 <h2>Price</h2>
-<h2 className='highLow'>High-Low</h2>
+
+<div className='highLow'>
+<button className=''>Low-High</button>
+    <button className=''>High-Low</button>
+</div>
 </div>
 {keyStoreData.map((val)=>(
   <div className='mainBOx' key={val.id}>
