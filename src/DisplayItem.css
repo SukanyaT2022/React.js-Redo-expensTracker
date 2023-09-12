@@ -14,7 +14,16 @@
 }
 .highLow{
     width: 20%!important;
-    background-color: aqua;
+ 
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+.updownButton{
+padding: 5px 10px;
+margin-right: 10px;
+color:darkgreen;
 }
 /* itemprice control all item price deletebutton */
 .itemPrice{

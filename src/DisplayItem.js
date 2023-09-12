@@ -1,5 +1,6 @@
 import React from 'react'
 import './DisplayItem.css'
+import { FaArrowUp,FaArrowDown } from "react-icons/fa";
 
 
 
@@ -12,8 +13,8 @@ function DisplayItem({keyStoreData}) {
 <h2>Price</h2>
 
 <div className='highLow'>
-<button className=''>Low-High</button>
-    <button className=''>High-Low</button>
+<button className='updownButton'><FaArrowDown/></button>
+    <button className='updownButton'><FaArrowUp/></button>
 </div>
 </div>
 {keyStoreData.map((val)=>(
