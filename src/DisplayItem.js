@@ -17,6 +17,7 @@ function DisplayItem({keyStoreData}) {
     <button className='updownButton'><FaArrowUp/></button>
 </div>
 </div>
+
 {keyStoreData.map((val)=>(
   <div className='mainBOx' key={val.id}>
     <div className='itemPrice'>
@@ -27,6 +28,9 @@ function DisplayItem({keyStoreData}) {
   </div>
   
 ))}
+
+
+
 
    
     </>

@@ -6,25 +6,27 @@ import DisplayItem from './DisplayItem';
 const App = () => {
   // step1 use array in Usestate--name arrays stroeData
   //step 2 display data storeDataArray we use javascript method to map value to display
-const [storeData, setStoreData] = useState([
+const [storeData, setStoreData] = useState(
+  [
   
-  {
-    id: 1,
-    item:"grocery",
-    price: 2,
-  },
-  {
-    id: 2,
-    item:"car",
-    price: 100,
-  },
-  {
-    id: 3,
-    item:"school",
-    price: 300,
-  },
+  // {
+  //   id: 1,
+  //   item:"grocery",
+  //   price: 2,
+  // },
+  // {
+  //   id: 2,
+  //   item:"car",
+  //   price: 100,
+  // },
+  // {
+  //   id: 3,
+  //   item:"school",
+  //   price: 300,
+  // },
 
 ])
+
 
 return(
   <>
