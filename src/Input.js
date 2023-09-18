@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './input.css';
 //important below line 4 do not forget { }inside() coz code will not work
-function Input({keysetStoreData}) {
+function Input({keysetStoreData, nameStoreData}) {
   //day 2  we make state to hold info the user type on 2 input box
   //next we use onChange{} line14 --evn user type input onchnage set value on hold item
   const [holdItemInput, setHoldItemInput] = useState('');
@@ -26,8 +26,8 @@ function Input({keysetStoreData}) {
       price: holdPriceInput,
  
   }
-    keysetStoreData([newObject]);
-    //2 line below after typeput and hit sumit --inputbox empty after
+    keysetStoreData([...nameStoreData,newObject]);
+    //2 line below after typeput and hit sumit input still have text-so we want to remove it after --inputbox empty after
     setHoldItemInput('');
     setHoldPriceInput('');
 

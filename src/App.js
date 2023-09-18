@@ -31,8 +31,10 @@ const [storeData, setStoreData] = useState(
 return(
   <>
   <div className='mainBoxAppJS'>
-    <Input keysetStoreData={setStoreData}/>
-    <DisplayItem keyStoreData ={storeData}/>
+    <Input keysetStoreData={setStoreData} nameStoreData={storeData}/>
+    <DisplayItem keyStoreData ={storeData} nameSetStoreData ={setStoreData}/>
+{/* {storeData} is array we put in the bottle */}
+    {/* keystoreData is array name --use to be call on other js */}
   </div>
   </>
   )}
